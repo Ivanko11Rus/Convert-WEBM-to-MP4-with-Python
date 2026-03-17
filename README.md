@@ -1,4 +1,4 @@
-English (russian will be there too):
+English (русский будет в этом же readme ниже):
 
 # 🎥 WebM to MP4 Converter
 
@@ -7,6 +7,13 @@ Supports three conversion modes, quality control via CRF, and automatic skipping
 
 - **`Webm_To_Mp4_Basic.py`** – simple batch converter.
 - **`Webm_To_Mp4_Testing.py`** – includes a test module to compare different CRF values on a single file.
+
+## About the Project
+> Dear community! This code was generated with AI assistance under my close guidance. I designed all the logic and structure myself, and I independently performed all the work on improvement, testing, and bug fixing.
+>
+> Initially, this project was intended for personal use, but since no similar programs were found online, I decided to release this program to the public in the hope that it will be useful to you.
+>
+> I'd appreciate your feedback and suggestions via Issues and Pull Requests. If something doesn't work as expected, or if you have ideas on how to improve the program — let's polish it together.
 
 ---
 
@@ -165,6 +172,14 @@ This project is open-source and available under the MIT License.
 - **`Webm_To_Mp4_Basic.py`** – простая программа для пакетной конвертации.
 
 - **`Webm_To_Mp4_Testing.py`** – включает тестовый модуль для сравнения разных значений CRF на одном файле.
+
+> ## О проекте
+> 
+> Уважаемое сообщество! Данный код был сгенерирован ИИ под моим чутким руководством. Всю логику и структуру я придумал сам, а также всю работу по улучшению, тестированию и исправлению ошибок я провёл самостоятельно.
+> 
+> Изначально этот проект рассчитывался для домашнего использования, но поскольку аналогичных программ в сети найдено не было, я решил выложить данную программу в открытый доступ, в надежде что она будет вам полезна.
+> 
+> Буду благодарен вашим замечаниям и предложениям через Issues и Pull Requests. Если что-то работает не так или Вы знаете, как можно сделать программу лучше - давайте вместе доведём её до ума.
 
 ## ⚙️ Базовая версия – Webm_To_Mp4_Basic.py
 
