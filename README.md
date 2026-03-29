@@ -1,4 +1,4 @@
-English (russian will be there too):
+English (русский будет в этом же readme ниже):
 
 # 🎥 WebM to MP4 Converter
 
@@ -8,7 +8,13 @@ Supports three conversion modes, quality control via CRF, and automatic skipping
 - **`Webm_To_Mp4_Basic.py`** – simple batch converter.
 - **`Webm_To_Mp4_Testing.py`** – includes a test module to compare different CRF values on a single file.
 
----
+## About the Project
+> Dear community! This code was generated with AI assistance under my close guidance. I designed all the logic and structure myself, and I independently performed all the work on improvement, testing, and bug fixing.
+>
+> Initially, this project was intended for personal use, but since no similar programs were found online, I decided to release this program to the public in the hope that it will be useful to you.
+>
+> I'd appreciate your feedback and suggestions via Issues and Pull Requests. If something doesn't work as expected, or if you have ideas on how to improve the program — let's polish it together.
+
 
 ## ⚙️ Basic Version – `Webm_To_Mp4_Basic.py`
 
@@ -151,6 +157,12 @@ Follow the console output – the program shows progress and pauses at the end (
 Special thanks to @anttiluode for the inspiration behind the three conversion modes (Direct, Frames, Auto).
 His original WebP2Mp4-Converter project (also MIT licensed) introduced the idea of handling problematic WebP animations via frame extraction, which we adapted for WebM videos.
 
+**Third‑party components**
+
+This tool uses [FFmpeg](https://ffmpeg.org/) to perform the actual conversion.  
+FFmpeg is licensed under the **GNU Lesser General Public License (LGPL) version 2.1 or later**.  
+You can find the full license terms and source code at: [https://ffmpeg.org/legal.html](https://ffmpeg.org/legal.html)
+
 ### 📝 License
 This project is open-source and available under the MIT License.
 
@@ -165,6 +177,14 @@ This project is open-source and available under the MIT License.
 - **`Webm_To_Mp4_Basic.py`** – простая программа для пакетной конвертации.
 
 - **`Webm_To_Mp4_Testing.py`** – включает тестовый модуль для сравнения разных значений CRF на одном файле.
+
+> ## О проекте
+> 
+> Уважаемое сообщество! Данный код был сгенерирован ИИ под моим чутким руководством. Всю логику и структуру я придумал сам, а также всю работу по улучшению, тестированию и исправлению ошибок я провёл самостоятельно.
+> 
+> Изначально этот проект рассчитывался для домашнего использования, но поскольку аналогичных программ в сети найдено не было, я решил выложить данную программу в открытый доступ, в надежде что она будет вам полезна.
+> 
+> Буду благодарен вашим замечаниям и предложениям через Issues и Pull Requests. Если что-то работает не так или Вы знаете, как можно сделать программу лучше - давайте вместе доведём её до ума.
 
 ## ⚙️ Базовая версия – Webm_To_Mp4_Basic.py
 
@@ -312,6 +332,12 @@ python Webm_To_Mp4_Basic.py
 ### 🙏 Благодарности
 Особая благодарность @anttiluode за идею трёх режимов конвертации (Direct, Frames, Auto).
 Именно его проект вдохновил разработчика на написание собственной версии программы.
+
+**Сторонние компоненты**
+
+Данная программа использует [FFmpeg](https://ffmpeg.org/) для выполнения конвертации.  
+FFmpeg распространяется под лицензией **GNU Lesser General Public License (LGPL) версии 2.1 или более поздней**.  
+Полные условия лицензии и исходный код доступны по адресу: [https://ffmpeg.org/legal.html](https://ffmpeg.org/legal.html)
 
 ### 📝 Лицензия
 Этот проект является открытым и доступен под лицензией MIT.
